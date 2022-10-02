@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/png" href="assets/lotus.png">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="https://kit.fontawesome.com/3229684b02.js"></script>
+    <!-- Bootstrap -->
+    <title>Ma Coach Bien-Être Billère | Accueil</title>
+  </head>
+  <body>
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-title">Isabelle Demski</div>
+            <div class="top-bar-information">
+                <div class="top-bar-element">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>isabelle@ma-coach-bien-etre.fr</div>                
+                </div>
+                <div class="top-bar-element">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>06.30.18.19.79</div>                
+                </div>
+                <div class="top-bar-element">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <div>2 Rue Ronsard, Billère (64)</div>                
+                </div>
+                <div class="top-bar-element">
+                    <i class="fa-solid fa-calendar"></i>                
+                    <div>8h-19h, Lundi au Samedi (inclus)</div>                
+                </div>
+            </div>
+
+            <!-- Cacher mobile ? Que numéro de tel ? -->
+        </div>
+        <div class="nav-bar"> 
+            <div class="title-and-logo">
+                <img src="assets/lotus.png" alt="Ma coach bien-être">
+                <div><b>Ma Coach Bien-Être</b> à Billère</div>
+            </div>
+            <div class="nav-links">
+                <a href="#">Accueil</a>
+                <a href="#">Sophrologie</a>
+                <a href="#">Sport</a>
+                <a href="#">Nutrition</a>
+                <a href="#">Tarifs</a>
+                <a href="#">Articles</a>
+            </div>
+            <button class="mobile-menu-button" id="mobile-menu-button" onclick="toggleMobileMenu()"><i id="mobile-menu-icon" class="fa-solid fa-bars"></i></button>
+            <div class="mobile-menu closed-menu" id="mobile-menu">
+                <a href="#">Accueil</a>
+                <a href="#">Sophrologie</a>
+                <a href="#">Sport</a>
+                <a href="#">Nutrition</a>
+                <a href="#">Tarifs</a>
+                <a href="#">Articles</a>
+            </div>
+            <!-- Bootstrap mobile hamburger -->
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" >
+            <div class="light-blue-overlay">
+                <img class="hero-illustration" src="assets/Illustrations/marche-exterieur.svg" alt="">
+                <div class="hero-content">
+                    <div class="profile-header">
+                        <img class="portrait" src="/assets/Illustrations/portrait-isabelle.png" alt="">
+                        <div>
+                            <h1>Ma coach bien-être
+                                Programmes sur mesure
+                            </h1>
+                            <div class="profile-header-subtitle">
+                                Isabelle Demski <span class="small-emoji">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-paragraph">
+                        Le coaching bien-être, c'est un ensemble de
+                        disciplines complémentaires, en adéquation avec
+                        vos objectifs de bien-être
+                    </div>
+                    <div class="hero-list green-blue-text">
+                        <ul>
+                            <li>Sophrologie et Relaxation</li>
+                            <li>Activité Physique</li>
+                            <li>Suivi nutrition</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="hero-form">
+                    <div class="form-text">
+                        <h3>Prendre rendez-vous</h3>
+                        <div class="green-blue-text bold-text">Au 06.30.18.19.78</div>
+                        <div>OU</div>
+                        <div>Pour être recontacté(e)</div>
+                    </div>
+                    <form class="contact-form">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Votre adresse email" >
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Votre message">
+                        </textarea>
+                        <button class="form-send-button" type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        </section>
+        <section class="slide white-bg white-bg-blue">
+            <div class="slide-content">
+                <h2>#1 Bien dans sa tête 
+                    <div class="slide-subtitle">avec la Sophrologie</div>
+                </h2>
+                <div class="slide-paragraph">
+                    Le Sophro-relaxologue puise dans sa « boîte à outils » 
+                    en s'adaptant en permanence aux besoins ainsi qu'à  
+                    l'évolution de la personne au fur et à mesure des 
+                    séances 
+                </div>
+                <div class="slide-actions">
+                    <button class="button-plain button-plain--blue">Prendre RDV</button>
+                    <button class="button-empty button-empty--blue">En savoir +</button>
+                </div>
+            </div>
+            <img class="slide-illustration" src="/assets/Illustrations/meditation.svg" alt="Femme en séance de sophrologie" >
+        </section>
+        <section class="slide green-bg">
+            <img class="slide-illustration" src="/assets/Illustrations/training.svg" alt="Femme en séance de sophrologie" >
+            <div class="slide-content">
+                <h2>#2 Bien dans son corps 
+                    <div class="slide-subtitle">avec le Sport</div>
+                </h2>
+                <div class="slide-paragraph">
+                    Educatrice sportive expérimentée, 
+                    <div>je vous propose 
+                    des programmes d'activité physique sur mesure  
+                    les séances peuvent se faire à domicile. </br>
+                    C'est pratique!</div>
+                </div>
+                <div class="slide-actions">
+                    <button class="button-plain button-plain--white-green">Prendre RDV</button>
+                    <button class="button-empty button-empty--white">En savoir +</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="slide white-bg white-bg-orange">
+            <div class="slide-content">
+                <h2>#3 Bien dans son assiette
+                    <div class="slide-subtitle">avec la Nutrition</div>
+                </h2>
+                <div class="slide-paragraph">
+                    De mon point de vue, l'alimentation est liée 
+                    au bien-être et à la santé.</br>
+                    Mon approche est simple, </br>
+                    basée sur le bon sens 
+                    et les connaissances scientifiques actuelles. 
+                </div>
+                <div class="slide-actions">
+                    <button class="button-plain button-plain--orange">Prendre RDV</button>
+                    <button class="button-empty button-empty--orange">En savoir +</button>
+                </div>
+            </div>
+            <img class="slide-illustration" src="/assets/Illustrations/courses.svg" alt="Femme en séance de sophrologie" >
+
+        </section>
+        <section class="slide white-bg equation">
+            <div class="light-blue-overlay light-blue-overlay--column">
+                <h2>Objectif bien-être =</h2>
+                <div class="equation-illustrations">
+                    <img class="slide-illustration slide-illustration--third" src="/assets/Illustrations/meditation.svg" alt="Femme en séance de sophrologie" >
+                    <div>+</div>
+                    <img class="slide-illustration slide-illustration--third" src="/assets/Illustrations/training.svg" alt="Femme en séance de sophrologie" >
+                    <div>+</div>
+                    <img class="slide-illustration slide-illustration--third" src="/assets/Illustrations/courses.svg" alt="Femme en séance de sophrologie" >
+                </div>
+                <div class="slide-actions">
+                    <button class="button-plain button-plain--blue">Prendre RDV</button>
+                </div>
+            </div>
+        </section>
+        <section class="slide picture-bg">
+            <h2>Ils recommandent Isabelle</h2>
+            <div class="three-reviews">
+                <div class="review">
+                    <h3>Stress & sommeil</h3>
+                    <div class="review-content"><div>Les séances sont guidées par la voix d'Isabelle, particulièrement apaisante et bienveillante, ce qui permet d'accueillir nos sensations, et d'arriver au lâcher prise entraînant un état de bien être et de détente. </div>
+                    <div> A recommander sans modération !</div>
+                </div>
+                    <div class="reviewer">Cathy  <span class="small-emoji"> ⭐⭐⭐⭐⭐</span></div>
+                </div>
+                <div class="review">
+                    <h3>Préparation d'un marathon</h3>
+                    <div class="review-content">
+                        <div>Pour la préparation de mon premier marathon j'ai fait le choix de compléter mon entraînement physique en m'orientant vers la sophrologie. 
+                        Je ressentais le besoin de travailler ma force mentale et morale face au défi dans lequel je m'engageais. </div>
+                        <div>Ma première rencontre avec Isabelle Demski m'a de suite confortée dans mon idée. 
+                        Avec un plan d'accompagnement de trois mois, elle a su m'apprendre à maîtriser ma respiration et gérer mon stress de l'évènement.</div> 
+                        <div>Attentive et bienveillante elle a été à l'écoute de mes ressentis. Elle est même allée au-delà de l'aspect sophrologique en m'apportant de précieux conseils de nutrition et de posture. 
+                        J'ai bouclé mon marathon en 4h30 et elle a largement contribué à la réussite de mon défi. </div>
+                        <div>Merci Isabelle pour votre implication dans ce projet. </div>
+                        </div>
+                    <div class="reviewer">Jennifer  <span class="small-emoji"> ⭐⭐⭐⭐⭐</span></div>
+                </div>
+                <div class="review">
+                    <h3>Alimentation en pleine conscience</h3>
+                    <div class="review-content"><div>Le plus dur pour moi a été de prendre conscience de mon tour de taille. </div>
+                        <div>Mon alimentation est assurée par un traiteur local, difficile de se rationner quand tout est appétissant ! </div>
+                        <div>Mais grâce à Isabelle je ne perds pas espoir, même à mon âge !</div>
+                    </div>
+                    <div class="reviewer">Claude  <span class="small-emoji"> ⭐⭐⭐⭐⭐</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="hero white-bg">
+            <div class="light-blue-overlay">
+                <img class="hero-illustration" src="assets/Illustrations/marche-exterieur.svg" alt="">
+                <div class="hero-content hero-content-alt">
+                    <div class="profile-header">
+                        <div>
+                            <h2 class="profile-header-subtitle">
+                                Combiner sophrologie, sport 
+                                et alimentation pour:
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="hero-list green-blue-text">
+                        <ul>
+                            <li>Réduire son stress et son anxiété</li>
+                            <li>Perdre du poids</li>
+                            <li>Avoir une meilleure condition physique</li>
+                            <li>Améliorer son sommeil</li>
+                            <li>Préparer une échéance (compétition, examen...)</li>
+                            <li>Et bien d'autres possibilités</li>
+                        </ul>
+                    </div>
+                    <div class="hero-sub-text">
+                        *Bien qu'il soit possible de choisir une seule approche, 
+                        les résultats en combinant les disciplines sont encore meilleurs!
+                    </div>
+                </div>
+                <div class="hero-form">
+                    <div class="form-text">
+                        <h3>Prendre rendez-vous</h3>
+                        <div class="green-blue-text bold-text">Au 06.30.18.19.78</div>
+                        <div>OU</div>
+                        <div>Pour être recontacté(e)</div>
+                    </div>
+                    <form class="contact-form">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Votre adresse email" >
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Votre message">
+                        </textarea>
+                        <button class="form-send-button" type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="mobile-floater">
+            <a href="tel:0630181979"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:isabelle@ma-coach-bien-etre.fr"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-column-third">
+            <h3>Le cabinet</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.4519950199906!2d-0.39335838451353!3d43.30479667913483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd564f3e804c111b%3A0xedfc662fa882ee7d!2sIsabelle%20Demski%20Coaching%20Sophrologie%20Pau%2064!5e0!3m2!1sfr!2sfr!4v1664706208332!5m2!1sfr!2sfr" width="100%" height="120px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer-column-third">
+            <h3>Partenaires</h3>
+            <div>
+                <a href="#">Membre - Fédération Internationale de Relaxologie</a>
+                <a href="#">Membre - Chambre Syndicale de la Sophrologie</a>
+                <a href="#">Association Vitalité et Sport Jurançon</a>
+                <a href="#">Mon interview sur prontopro.fr</a>
+            </div>
+        </div>
+        <div class="footer-column-third">
+            <h3>Isabelle Demski 
+            Ma Coach Bien-Être</h3>
+            <div>
+                <div>isabelle@ma-coach-bien-etre.fr</div>
+                <div>06.30.18.19.79</div>
+                <div>2 Rue Ronsard, Billère (64)</div>
+                <div>ma-coach-bien-etre.fr © 2028</div>
+                <a href="#">Conditions d'utilisation du site</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/scripts/mobile-menu.js"></script>
+  </body>
+</html>
