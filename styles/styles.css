@@ -1,16 +1,16 @@
 @font-face {
 	font-family: open-sans-light;
-	src: url('/assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf')
+	src: url('../assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf')
 }
 
 @font-face {
 	font-family: open-sans-bold;
-	src: url('/assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf')
+	src: url('../assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf')
 }
 
 @font-face {
 	font-family: satisfy;
-	src: url('/assets/Fonts/Satisfy/Satisfy-Regular.ttf')
+	src: url('../assets/Fonts/Satisfy/Satisfy-Regular.ttf')
 }
 
 * {
@@ -644,7 +644,7 @@ b {
 
 .picture-bg {
     color: white;
-    background-image: url('/assets/femme-face-montagne.jpeg');
+    background-image: url('../assets/femme-face-montagne.jpeg');
     background-attachment: fixed;
     background-position: bottom left;
     background-repeat: no-repeat;
