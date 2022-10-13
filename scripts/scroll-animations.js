@@ -19,3 +19,6 @@ hiddenLeftElements.forEach((el) => observer.observe(el));
 
 const hiddenRightElements = document.querySelectorAll('.anim-hidden-right');
 hiddenRightElements.forEach((el) => observer.observe(el));
+
+const hiddenSlowElements = document.querySelectorAll('.anim-hidden-slow');
+hiddenSlowElements.forEach((el) => observer.observe(el));
